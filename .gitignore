@@ -27,3 +27,6 @@ fp-info-cache
 
 # Backups
 production/backups
+
+# Local computer lock on project
+~HE75.kicad_pcb.lck
