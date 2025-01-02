@@ -47569,7 +47569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+		(property "Footprint" "Library:SOT-143B"
 			(at 196.85 71.374 0)
 			(effects
 				(font
