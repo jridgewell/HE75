@@ -1,5 +1,10 @@
 (version 1)
-(rule CourtyardClearance
+(rule PadClearance
   (constraint clearance (min 0.2mm))
-  (condition "A.intersectsCourtyard('U*') || A.intersectsCourtyard('AM*')")
+  (condition "A.intersectsCourtyard('*') && ((A.Type == 'Track' && B.Type == 'Pad') || (B.Type == 'Track' && A.Type == 'Pad'))")
+)
+
+(rule AnalogClearance
+  (constraint clearance (min 0.2mm))
+  (condition "A.NetClass == 'Analog' && A.intersectsCourtyard('AM*')")
 )
