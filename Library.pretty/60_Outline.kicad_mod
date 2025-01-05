@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "Standard 60% keyboard outline, from https://github.com/ai03-2725/JP60/blob/main/locallib.pretty/60_Outline.kicad_mod")
 	(property "Reference" "REF**"
 		(at -139 50.5 0)
 		(layer "Edge.Cuts")

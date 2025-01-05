@@ -2197,6 +2197,191 @@
 				)
 			)
 		)
+		(symbol "Library:MX_stab"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MX_stab"
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Library:STAB_MX_2u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cherry MX-style stabilizer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cherry mx stabilizer stab"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_stab_0_1"
+				(rectangle
+					(start -5.08 -1.524)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 1.27)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.826 2.794)
+					(end -2.794 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 -2.286)
+					(end -3.556 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 -1.778)
+					(end 4.064 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 1.27)
+					(end -3.556 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.524)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 1.27)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 2.794)
+					(end 4.826 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.556 1.27)
+					(end 4.064 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.064 -2.286)
+					(end 3.556 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "MCU_ST_STM32F3:STM32F303CCTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3949,191 +4134,6 @@
 					(radius 1.27)
 					(stroke
 						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-		(symbol "PCM_marbastlib-mx:MX_stab"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at -5.08 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MX_stab"
-				(at -5.08 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Cherry MX-style stabilizer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cherry mx stabilizer stab"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MX_stab_0_1"
-				(rectangle
-					(start -5.08 -1.524)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -5.08 1.27)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -4.826 2.794)
-					(end -2.794 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -4.064 -2.286)
-					(end -3.556 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -4.064 -1.778)
-					(end 4.064 -2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -4.064 1.27)
-					(end -3.556 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -1.524)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 1.27)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.794 2.794)
-					(end 4.826 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.556 1.27)
-					(end 4.064 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 4.064 -2.286)
-					(end 3.556 -1.016)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -6311,12 +6311,6 @@
 		(uuid "50981a68-c595-4ff7-80eb-4ac42e05265d")
 	)
 	(junction
-		(at 215.9 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5170daa6-3adf-4f91-8a75-0d4f025311dc")
-	)
-	(junction
 		(at 21.59 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6351,12 +6345,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a492d19-2ef9-4336-a65f-b0b1ea881171")
-	)
-	(junction
-		(at 190.5 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d2102a7-63f7-486d-b283-46357d4a40dc")
 	)
 	(junction
 		(at 275.59 271.78)
@@ -7045,6 +7033,14 @@
 		(uuid "0bfaad2d-d15f-4e52-9c59-7109f11b54cb")
 	)
 	(no_connect
+		(at 190.5 60.96)
+		(uuid "0c924145-79b8-4f92-8cac-1b20f0874726")
+	)
+	(no_connect
+		(at 215.9 66.04)
+		(uuid "16fa460a-5de9-49b2-9e39-0411f87b7791")
+	)
+	(no_connect
 		(at 64.77 73.66)
 		(uuid "2c0b96f7-7849-469a-a96e-38faacf67597")
 	)
@@ -7059,6 +7055,10 @@
 	(no_connect
 		(at 64.77 55.88)
 		(uuid "3fb6ffab-b5f2-4296-82e9-c45eda980e41")
+	)
+	(no_connect
+		(at 215.9 71.12)
+		(uuid "4227abde-d2b6-4f4a-96eb-ae95dd802d79")
 	)
 	(no_connect
 		(at 29.21 88.9)
@@ -7119,6 +7119,10 @@
 	(no_connect
 		(at 29.21 104.14)
 		(uuid "e0aad9f3-48a8-4020-a909-217bfe474c1a")
+	)
+	(no_connect
+		(at 190.5 55.88)
+		(uuid "e0be1969-6eed-4407-bc15-6d185eeaeb2d")
 	)
 	(no_connect
 		(at 29.21 60.96)
@@ -7349,16 +7353,6 @@
 			(type default)
 		)
 		(uuid "0d7c9e3e-5886-400e-907d-ddfa934aa87f")
-	)
-	(wire
-		(pts
-			(xy 215.9 60.96) (xy 215.9 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e03e360-83f7-431d-973e-f1f69bd46a63")
 	)
 	(wire
 		(pts
@@ -11832,16 +11826,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 60.96) (xy 190.5 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe9297d-dd48-4a67-b0f4-0d66206ed6fe")
-	)
-	(wire
-		(pts
 			(xy 339.09 143.51) (xy 344.17 143.51)
 		)
 		(stroke
@@ -14714,7 +14698,7 @@
 		(uuid "5cad22b2-62a1-4afc-b926-350643ec413a")
 	)
 	(label "USB_D-"
-		(at 215.9 64.77 0)
+		(at 215.9 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15571,17 +15555,6 @@
 		)
 		(uuid "b6e29232-7419-43a9-8e4a-c9f26cd6c630")
 	)
-	(label "A47"
-		(at 509.0225 319.3903 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b76c10e5-0f46-4d86-8b1d-91cc3323ba95")
-	)
 	(label "A57"
 		(at 303.53 143.51 180)
 		(fields_autoplaced yes)
@@ -15957,7 +15930,7 @@
 		(uuid "e03e5176-c051-442e-b05d-698c6a4b6778")
 	)
 	(label "USB_D+"
-		(at 190.5 64.77 180)
+		(at 190.5 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17931,7 +17904,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2827688"
+		(property "LCSC" "C138714"
 			(at 203.2 63.5 0)
 			(effects
 				(font
@@ -35858,7 +35831,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(lib_id "Library:MX_stab")
 		(at 402.59 383.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35876,7 +35849,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_stab"
+		(property "Value" "Center 6u"
 			(at 408.94 384.6829 0)
 			(effects
 				(font
@@ -35885,7 +35858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_6u"
+		(property "Footprint" "Library:STAB_MX_6u"
 			(at 402.59 383.54 0)
 			(effects
 				(font
@@ -38504,7 +38477,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(lib_id "Library:MX_stab")
 		(at 478.79 374.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38522,7 +38495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_stab"
+		(property "Value" "Right 2u"
 			(at 485.14 375.7929 0)
 			(effects
 				(font
@@ -38531,7 +38504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_2u"
+		(property "Footprint" "Library:STAB_MX_2u"
 			(at 478.79 374.65 0)
 			(effects
 				(font
@@ -50107,7 +50080,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(lib_id "Library:MX_stab")
 		(at 407.67 373.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -50125,7 +50098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_stab"
+		(property "Value" "Center 2u"
 			(at 414.02 374.5229 0)
 			(effects
 				(font
@@ -50134,7 +50107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_2u"
+		(property "Footprint" "Library:STAB_MX_2u"
 			(at 407.67 373.38 0)
 			(effects
 				(font
@@ -50706,7 +50679,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(lib_id "Library:MX_stab")
 		(at 336.55 374.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -50723,7 +50696,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_stab"
+		(property "Value" "Left 2u"
 			(at 342.9 375.7929 0)
 			(effects
 				(font
@@ -50732,7 +50705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_2u"
+		(property "Footprint" "Library:STAB_MX_2u"
 			(at 336.55 374.65 0)
 			(effects
 				(font
