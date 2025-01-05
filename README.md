@@ -2,9 +2,10 @@
 
 A standard 60% kebyoard (GH60 compatible) with 75 hall effects keys and an ortholinear layout.
 
-![Front PCB rendering](./images/HE75 front pcb render.png)
-![Back PCB rendering](./images/HE75 back pcb render.png)
-[![Keyboard Layout](./images/layout.png)](https://www.keyboard-layout-editor.com/#/gists/170365ab19794ff094947c42b6bdc8db
+[![Keyboard Layout](./images/layout.png)](https://www.keyboard-layout-editor.com/#/gists/170365ab19794ff094947c42b6bdc8db)
+![Front PCB rendering](./images/HE75%20front%20pcb%20render.png)
+![Back PCB rendering](./images/HE75%20back%20pcb%20render.png)
+
 
 ## Prior Art
 
@@ -28,11 +29,11 @@ The first two are my real requirements. I bought a [Wooting 60HE module](https:/
 
 The first major issue is mouting positions for GH60 keyboards (marked in red):
 
-[![GH60 mount points](./images/gh60 mount points.png)](https://www.keyboard-layout-editor.com/#/gists/9240d6fccecb17ad5743e3385da3a0a3)
+[![GH60 mount points](./images/gh60%20mount%20points.png)](https://www.keyboard-layout-editor.com/#/gists/9240d6fccecb17ad5743e3385da3a0a3)
 
 When putting an ortholinear layout over top of that, several of the conflict:
 
-[![Ortho GH60 mount points](./images/gh60 ortho mount points.png)][https://www.keyboard-layout-editor.com/#/gists/17eab835f870a1f1875c20cea78cf165]
+[![Ortho GH60 mount points](./images/gh60%20ortho%20mount%20points.png)](https://www.keyboard-layout-editor.com/#/gists/17eab835f870a1f1875c20cea78cf165)
 
 This is a little bit of a problem when using standard MX keyswitches, the screws used to mount the board will prevent the keyswitch from fully inserting. Normally you'd just leave those screws out, and still use the mount point for support. But with a hall effect keyboard, there's a hall effect sensor on the backside of the PCB and we need to move it so that it doesn't short out or get damaged when inserting the keyboard into the case. So for three keys (Q, H, and \), the sensor is roughly 1mm out of alignment with the keyswitch's magnet. Hopefully this'll be ok.
 
