@@ -16586,7 +16586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05f79feb-1910-46c7-9130-ee1c952686e8")
-		(property "Reference" "RST1"
+		(property "Reference" "BOOT0"
 			(at 63.5 166.37 0)
 			(effects
 				(font
@@ -16656,7 +16656,7 @@
 		(instances
 			(project "HE75"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "RST1")
+					(reference "BOOT0")
 					(unit 1)
 				)
 			)
@@ -17109,7 +17109,7 @@
 				)
 			)
 		)
-		(property "Value" "Space L2u"
+		(property "Value" "L2U"
 			(at 321.31 562.61 0)
 			(effects
 				(font
@@ -35859,7 +35859,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 401.32 388.62 0)
+		(at 402.59 383.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -35868,7 +35868,7 @@
 		(fields_autoplaced yes)
 		(uuid "95398e0f-d37a-4a4f-b633-92f8d8c8e5f3")
 		(property "Reference" "Stab4"
-			(at 407.67 387.2229 0)
+			(at 408.94 382.1429 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35877,7 +35877,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 407.67 389.7629 0)
+			(at 408.94 384.6829 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35886,7 +35886,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_6u"
-			(at 401.32 388.62 0)
+			(at 402.59 383.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35895,7 +35895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 401.32 388.62 0)
+			(at 402.59 383.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35904,7 +35904,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 401.32 388.62 0)
+			(at 402.59 383.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38068,19 +38068,21 @@
 		(fields_autoplaced yes)
 		(uuid "a167945a-60a0-4010-aa1d-77d051c2ce75")
 		(property "Reference" "SW77"
-			(at 353.06 558.8 0)
+			(at 356.87 561.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Space C2u"
-			(at 353.06 562.61 0)
+		(property "Value" "C2U/6U"
+			(at 356.87 563.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:1u MX Hall Effect"
@@ -39651,7 +39653,7 @@
 				)
 			)
 		)
-		(property "Value" "Space R2u"
+		(property "Value" "R2U"
 			(at 387.35 562.61 0)
 			(effects
 				(font
