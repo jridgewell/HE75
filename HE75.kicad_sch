@@ -6041,7 +6041,7 @@
 		(uuid "11b88ef1-1e6d-46ad-b0fe-9f4798dcd626")
 	)
 	(junction
-		(at 400.05 373.38)
+		(at 467.36 372.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12c9d41e-d669-462b-ba03-a4d8c36a0ca2")
@@ -6887,7 +6887,7 @@
 		(uuid "e5b4b8d1-567a-4f4b-9ac4-f19c5ce4f389")
 	)
 	(junction
-		(at 363.22 356.87)
+		(at 396.24 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5f1596b-f670-42a9-96da-7e7234d611f2")
@@ -6977,7 +6977,7 @@
 		(uuid "f1cc696c-56cc-4225-acca-34c2e81363f0")
 	)
 	(junction
-		(at 363.22 372.11)
+		(at 396.24 370.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2025f6e-1fb1-4636-9379-fea1047c6266")
@@ -6989,7 +6989,7 @@
 		(uuid "f3ca58fb-c773-4e50-be0c-2da447fc114c")
 	)
 	(junction
-		(at 400.05 358.14)
+		(at 467.36 356.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4b13347-72f6-4cf9-a7f7-67fdbef72a90")
@@ -7632,7 +7632,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 372.11) (xy 363.22 372.11)
+			(xy 391.16 370.84) (xy 396.24 370.84)
 		)
 		(stroke
 			(width 0)
@@ -7832,7 +7832,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 361.95) (xy 358.14 356.87)
+			(xy 391.16 360.68) (xy 391.16 355.6)
 		)
 		(stroke
 			(width 0)
@@ -7952,7 +7952,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 363.22) (xy 394.97 358.14)
+			(xy 462.28 361.95) (xy 462.28 356.87)
 		)
 		(stroke
 			(width 0)
@@ -8472,7 +8472,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 367.03) (xy 358.14 372.11)
+			(xy 391.16 365.76) (xy 391.16 370.84)
 		)
 		(stroke
 			(width 0)
@@ -8482,7 +8482,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 358.14) (xy 400.05 358.14)
+			(xy 462.28 356.87) (xy 467.36 356.87)
 		)
 		(stroke
 			(width 0)
@@ -9462,7 +9462,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 373.38) (xy 400.05 373.38)
+			(xy 462.28 372.11) (xy 467.36 372.11)
 		)
 		(stroke
 			(width 0)
@@ -11562,7 +11562,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 356.87) (xy 363.22 356.87)
+			(xy 391.16 355.6) (xy 396.24 355.6)
 		)
 		(stroke
 			(width 0)
@@ -11972,7 +11972,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 368.3) (xy 394.97 373.38)
+			(xy 462.28 367.03) (xy 462.28 372.11)
 		)
 		(stroke
 			(width 0)
@@ -12364,7 +12364,7 @@
 	)
 	(rectangle
 		(start 16.51 21.59)
-		(end 119.38 200.66)
+		(end 119.38 186.69)
 		(stroke
 			(width 0)
 			(type dash)
@@ -12426,7 +12426,7 @@
 	)
 	(rectangle
 		(start 161.29 209.55)
-		(end 261.62 351.79)
+		(end 261.62 350.52)
 		(stroke
 			(width 0)
 			(type default)
@@ -12643,20 +12643,8 @@
 		(uuid d7976568-f5be-481c-8993-bc13b3559f5c)
 	)
 	(rectangle
-		(start 300.99 374.65)
-		(end 300.99 374.65)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e4181172-d1a4-425c-a40d-60850a016253)
-	)
-	(rectangle
 		(start 17.78 121.92)
-		(end 40.64 125.73)
+		(end 40.64 125.9631)
 		(stroke
 			(width 0)
 			(type default)
@@ -12975,9 +12963,9 @@
 		)
 		(uuid "268d3304-8658-4ccd-ab4a-094d4cecbfd5")
 	)
-	(text "Space R2u"
+	(text "2u"
 		(exclude_from_sim no)
-		(at 405.892 362.458 0)
+		(at 473.202 361.188 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13152,7 +13140,7 @@
 		)
 		(uuid "499f0e11-ba6d-45b2-b276-a0c43d65f154")
 	)
-	(text "Space L2u"
+	(text "2u"
 		(exclude_from_sim no)
 		(at 330.962 361.188 0)
 		(effects
@@ -13452,9 +13440,9 @@
 		)
 		(uuid "832330f0-61df-428c-9aea-423330cdc740")
 	)
-	(text "Space C2u"
+	(text "2u"
 		(exclude_from_sim no)
-		(at 370.078 361.442 0)
+		(at 403.098 360.172 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14429,7 +14417,7 @@
 		(uuid "3f235216-c58a-4930-9c78-17416bd9d033")
 	)
 	(label "A42"
-		(at 378.46 364.49 0)
+		(at 411.48 363.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15100,7 +15088,7 @@
 		(uuid "874d1f66-dab7-4726-ada6-8a51bfe3e591")
 	)
 	(label "A45"
-		(at 415.29 365.76 0)
+		(at 482.6 364.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18123,7 +18111,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 394.97 365.76 180)
+		(at 462.28 364.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18131,7 +18119,7 @@
 		(dnp no)
 		(uuid "0eb32a65-a093-4a4c-b3bb-23e7529c57c6")
 		(property "Reference" "VR78"
-			(at 393.446 363.982 90)
+			(at 460.756 362.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18140,7 +18128,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 393.446 372.872 90)
+			(at 460.756 371.602 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18149,7 +18137,7 @@
 			)
 		)
 		(property "Footprint" "Library:Capacitor 0402"
-			(at 394.97 365.76 0)
+			(at 462.28 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18158,7 +18146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 365.76 0)
+			(at 462.28 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18167,7 +18155,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 394.97 365.76 0)
+			(at 462.28 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18176,7 +18164,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 397.51 364.4835 0)
+			(at 464.82 363.2135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24810,7 +24798,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 363.22 356.87 0)
+		(at 396.24 355.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24818,7 +24806,7 @@
 		(dnp no)
 		(uuid "412370dc-aac7-4800-a1a3-02bf0ca6e132")
 		(property "Reference" "#PWR0204"
-			(at 363.22 360.68 0)
+			(at 396.24 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24827,7 +24815,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 363.22 352.425 0)
+			(at 396.24 351.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24835,7 +24823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 356.87 0)
+			(at 396.24 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24844,7 +24832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 356.87 0)
+			(at 396.24 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24853,7 +24841,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 363.22 356.87 0)
+			(at 396.24 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26366,7 +26354,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 400.05 373.38 0)
+		(at 467.36 372.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26374,7 +26362,7 @@
 		(dnp no)
 		(uuid "4dab5741-6480-46f7-b7a7-03acc1b4e9a2")
 		(property "Reference" "#PWR0208"
-			(at 400.05 379.73 0)
+			(at 467.36 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26383,7 +26371,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 400.05 378.46 0)
+			(at 467.36 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26391,7 +26379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 400.05 373.38 0)
+			(at 467.36 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26400,7 +26388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 400.05 373.38 0)
+			(at 467.36 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26409,7 +26397,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 400.05 373.38 0)
+			(at 467.36 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28083,7 +28071,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 358.14 364.49 180)
+		(at 391.16 363.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28091,7 +28079,7 @@
 		(dnp no)
 		(uuid "59d0f259-1f47-40ae-ae2e-59a118838d3e")
 		(property "Reference" "VR77"
-			(at 356.616 362.712 90)
+			(at 389.636 361.442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28100,7 +28088,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 356.616 371.602 90)
+			(at 389.636 370.332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28109,7 +28097,7 @@
 			)
 		)
 		(property "Footprint" "Library:Capacitor 0402"
-			(at 358.14 364.49 0)
+			(at 391.16 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28118,7 +28106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 358.14 364.49 0)
+			(at 391.16 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28127,7 +28115,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 358.14 364.49 0)
+			(at 391.16 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28136,7 +28124,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 360.68 363.2135 0)
+			(at 393.7 361.9435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31725,7 +31713,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 400.05 358.14 0)
+		(at 467.36 356.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31733,7 +31721,7 @@
 		(dnp no)
 		(uuid "735eb2b6-8de8-4fb3-b58d-139795988a8a")
 		(property "Reference" "#PWR0205"
-			(at 400.05 361.95 0)
+			(at 467.36 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31742,7 +31730,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 399.542 353.568 0)
+			(at 466.852 352.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31750,7 +31738,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 400.05 358.14 0)
+			(at 467.36 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31759,7 +31747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 400.05 358.14 0)
+			(at 467.36 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31768,7 +31756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 400.05 358.14 0)
+			(at 467.36 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35870,6 +35858,70 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 401.32 388.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95398e0f-d37a-4a4f-b633-92f8d8c8e5f3")
+		(property "Reference" "Stab4"
+			(at 407.67 387.2229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 407.67 389.7629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_6u"
+			(at 401.32 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 401.32 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 401.32 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HE75"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "Stab4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Magnetic:SM351LT")
 		(at 417.83 251.46 0)
 		(unit 1)
@@ -36017,7 +36069,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:SM351LT")
-		(at 405.13 365.76 0)
+		(at 472.44 364.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36025,7 +36077,7 @@
 		(dnp no)
 		(uuid "96a988bc-76f6-4f2d-848f-496e0eb4ae2d")
 		(property "Reference" "HE78"
-			(at 406.908 356.362 0)
+			(at 474.218 355.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36034,7 +36086,7 @@
 			)
 		)
 		(property "Value" "GH39FKSW"
-			(at 411.226 359.156 0)
+			(at 478.536 357.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36043,7 +36095,7 @@
 			)
 		)
 		(property "Footprint" "Library:Hall Effect Sensor SOT-23"
-			(at 403.86 365.76 0)
+			(at 471.17 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36052,7 +36104,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811061518_GoChip-Elec-Tech--Shanghai-GH39FKSW_C266230.pdf"
-			(at 403.86 365.76 0)
+			(at 471.17 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36061,7 +36113,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 405.13 365.76 0)
+			(at 472.44 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36070,7 +36122,7 @@
 			)
 		)
 		(property "LCSC" "C266230"
-			(at 405.13 365.76 0)
+			(at 472.44 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36737,7 +36789,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 363.22 372.11 0)
+		(at 396.24 370.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36745,7 +36797,7 @@
 		(dnp no)
 		(uuid "99adab19-8c71-4766-b388-5228b4de5c22")
 		(property "Reference" "#PWR0207"
-			(at 363.22 378.46 0)
+			(at 396.24 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36754,7 +36806,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 363.22 377.19 0)
+			(at 396.24 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36762,7 +36814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 372.11 0)
+			(at 396.24 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36771,7 +36823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 372.11 0)
+			(at 396.24 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36780,7 +36832,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 363.22 372.11 0)
+			(at 396.24 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38451,7 +38503,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 411.48 375.92 0)
+		(at 478.79 374.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -38460,7 +38512,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3ccc3d1-7d76-4057-b0dc-2fc924aefd3b")
 		(property "Reference" "Stab3"
-			(at 417.83 374.5229 0)
+			(at 485.14 373.2529 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38469,7 +38521,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 417.83 377.0629 0)
+			(at 485.14 375.7929 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38478,7 +38530,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_2u"
-			(at 411.48 375.92 0)
+			(at 478.79 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38487,7 +38539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 411.48 375.92 0)
+			(at 478.79 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38496,7 +38548,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 411.48 375.92 0)
+			(at 478.79 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50054,7 +50106,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 374.65 374.65 0)
+		(at 407.67 373.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -50063,7 +50115,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8e2499e-6836-40be-adaa-fc1d05acb1d6")
 		(property "Reference" "Stab2"
-			(at 381 373.2529 0)
+			(at 414.02 371.9829 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50072,7 +50124,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 381 375.7929 0)
+			(at 414.02 374.5229 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50081,7 +50133,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_2u"
-			(at 374.65 374.65 0)
+			(at 407.67 373.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50090,7 +50142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 374.65 374.65 0)
+			(at 407.67 373.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50099,7 +50151,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 374.65 374.65 0)
+			(at 407.67 373.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50330,7 +50382,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:SM351LT")
-		(at 368.3 364.49 0)
+		(at 401.32 363.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50338,7 +50390,7 @@
 		(dnp no)
 		(uuid "faf9ed74-4882-45b5-ac8d-d9d1e0fbeed7")
 		(property "Reference" "HE77"
-			(at 370.078 355.092 0)
+			(at 403.098 353.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50347,7 +50399,7 @@
 			)
 		)
 		(property "Value" "GH39FKSW"
-			(at 374.396 357.886 0)
+			(at 407.416 356.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50356,7 +50408,7 @@
 			)
 		)
 		(property "Footprint" "Library:Hall Effect Sensor SOT-23"
-			(at 367.03 364.49 0)
+			(at 400.05 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50365,7 +50417,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811061518_GoChip-Elec-Tech--Shanghai-GH39FKSW_C266230.pdf"
-			(at 367.03 364.49 0)
+			(at 400.05 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50374,7 +50426,7 @@
 			)
 		)
 		(property "Description" "Hall Effect Switch, SOT-23"
-			(at 368.3 364.49 0)
+			(at 401.32 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50383,7 +50435,7 @@
 			)
 		)
 		(property "LCSC" "C266230"
-			(at 368.3 364.49 0)
+			(at 401.32 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
