@@ -12953,9 +12953,9 @@
 		)
 		(uuid "1371fb93-4331-4a58-b35a-41e25b320115")
 	)
-	(text "STM32F072CBT6"
+	(text "MCU"
 		(exclude_from_sim no)
-		(at 46.736 17.78 0)
+		(at 23.876 18.542 0)
 		(effects
 			(font
 				(size 5.08 5.08)
