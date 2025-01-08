@@ -23,21 +23,19 @@ I also used a few community assets to start the design:
 
 1. Must fit into a 60% keyboard case
 2. Must use an ortholinear layout
-3. Should use hall effect keys
+3. Must use hall effect keys
 
-The first two are my real requirements. I bought a [Wooting 60HE module](https://wooting.io/wooting-60he-module) and case, but I just can't stand the standard keyboard layout after using a split-ortho board for years. This is my attempt to cram an ortholinear layout into the same case, and hopefully keep the fancy hall effect sensing for gaming.
+I bought a [Wooting 60HE module](https://wooting.io/wooting-60he-module) and case, but I just can't stand the standard keyboard layout after using a split-ortho board for years. This is my attempt to cram an ortholinear layout into the same case, keeping it as close to a normal row staggered layout as possible. I do need occasional 1-handed access to right-hand side of the keyboard, I'm not after a mock split.
 
 The first major issue is mouting positions for GH60 keyboards (marked in red):
 
 [![GH60 mount points](./images/gh60%20mount%20points.png)](https://www.keyboard-layout-editor.com/#/gists/9240d6fccecb17ad5743e3385da3a0a3)
 
-When putting an ortholinear layout over top of that, several of the conflict:
+When putting an ortholinear layout over top of that, several of the keys conflict:
 
 [![Ortho GH60 mount points](./images/gh60%20ortho%20mount%20points.png)](https://www.keyboard-layout-editor.com/#/gists/17eab835f870a1f1875c20cea78cf165)
 
-This is a little bit of a problem when using standard MX keyswitches, the screws used to mount the board will prevent the keyswitch from fully inserting. Normally you'd just leave those screws out, and still use the mount point for support. But with a hall effect keyboard, there's a hall effect sensor on the backside of the PCB and we need to move it so that it doesn't short out or get damaged when inserting the keyboard into the case. So for three keys (Q, H, and \), the sensor is roughly 1mm out of alignment with the keyswitch's magnet. Hopefully this'll be ok.
-
-Even trying different ortholinear keyboard layouts won't fully solve this (like the . There's just no way to have a 1u aligned grid that doesn't have some conflict.
+If I were using standard MX key switches, this would only require rotating those keys 90% and skipping the screws in those locations. But with a hall effect keyboard, there's a hall effect sensor on the backside of the PCB occupying the same space as the screw mount. I need to move it so that it doesn't short out or get damaged when inserting the keyboard into the case. So for three keys (Q, H, and \), the sensor is roughly 1mm out of alignment with the key switch's magnet. Hopefully this'll be ok.
 
 # Next Steps
 
